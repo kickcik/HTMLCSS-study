@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <title>설문조사 양식</title>
+</head>
+<body>
+    <header>
+        <h1>설문조사 양식</h1>
+        <p>모든 항목을 빠짐없이 선택해주세요.</p>
+    </header>
+    <hr>
+    <main>
+        <fieldset>
+            <legend>개인정보</legend>
+            <label>이름
+                <input type = 'text' name = 'name', placeholder="본명을 입력하세요">
+            </label>
+            <br>
+            <label>이메일
+                <input type = 'email' name = 'email', placeholder="이메일을 입력하세요">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>설문</legend>
+            <p>연령대를 선택해주세요</p>
+            <label><input type="radio" name = 'age'> 10대</label>
+            <label><input type="radio" name = 'age'> 20대</label>
+            <label><input type="radio" name = 'age'> 30대</label>
+            <label><input type="radio" name = 'age'> 40대</label>
+            <label><input type="radio" name = 'age'> 50대</label>
+            <label><input type="radio" name = 'age'> 그 외</label>
+            <p>학원을 선택하는 기준을 선택해주세요</p>
+            <label><input type="checkbox" name = 'academy'> 위치</label>
+            <label><input type="checkbox" name = 'academy'> 학원비</label>
+            <label><input type="checkbox" name = 'academy'> 강사</label>
+            <label><input type="checkbox" name = 'academy'> 시설</label>
+        </fieldset>
+        <fieldset>
+            <legend>기타의견</legend>
+            <textarea rows = '3' cols = '30'></textarea>
+        </fieldset>
+        <input type="submit">
+    </main>
+    <hr>
+    <footer>
+        <p>수고하셨습니다.</p>
+    </footer>
+</body>
+</html>
